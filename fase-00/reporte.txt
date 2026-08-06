@@ -1,0 +1,3 @@
+---REPORTE DE VENTAS---
+Total de ventas: 1215
+Total de ingresos: $131000
