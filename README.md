@@ -7,3 +7,12 @@ Este proyecto consta de 5 scripts sencillos para demostrar conocimientos basicos
 - **Lector de csv**: A diferencia del generador de reportes, esta funcion solo recibe el csv y lo muestra en un formato ordenado
 
 
+## Instalacion 
+    
+### Requisitos previos
+    
+    -Python 3.14.5
+
+### Instalar dependencias
+
+    -Ejecutar el siguiente comando: pip install -r requieriments.txt
