@@ -2,6 +2,7 @@ import random
 
 
 def adivinar_numero ():
+    '''Crea un numero aleatorio y el usuario ingresa numeros recibiendo pistas para adivinar el numero generado'''
     
     numero_aleatorio = random.randint(1,100)
     numero_temporal = 0
