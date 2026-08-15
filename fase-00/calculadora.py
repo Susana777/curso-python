@@ -1,5 +1,6 @@
 
 def calculadora():
+    '''Pide al usuario dos numeros, la operacion a realizar y la ejecuta'''
     
     while True:
         try:
