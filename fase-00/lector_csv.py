@@ -4,6 +4,7 @@ import pandas as pd
 
 
 def lector_de_csv(ruta_csv: Path):
+    '''Recibe un archivo csv y lo muestra en una tabla'''
     
     archivo = pd.read_csv(ruta_csv, encoding="utf-8")
     
