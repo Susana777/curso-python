@@ -4,6 +4,8 @@ import pandas as pd
 
 
 def generador_de_reporte(datos_csv: Path):
+    '''Recibe un archivo csv con ventas e ingresos y genera un reporte de texto con el
+    total de ventas y el total de ingresos'''
     
     datos = pd.read_csv(datos_csv, encoding="utf-8")
     
