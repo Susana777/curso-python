@@ -1,5 +1,7 @@
 from pathlib import Path
+
 import pandas as pd
+
 
 def lector_de_csv(ruta_csv: Path):
     
