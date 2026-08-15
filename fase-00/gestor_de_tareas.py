@@ -4,7 +4,7 @@ tareas = []
 
 
 def agregar_tarea():
-    
+    '''Pide el nombre de la tarea a agregar y lo guarda'''
     nombre = input("Nombre de la tarea: ").strip()
     if not nombre:
         print("La tarea necesita un nombre\n")
@@ -14,7 +14,7 @@ def agregar_tarea():
 
 
 def listar_tareas():
-    
+    '''Muestra todas las tareas con indice y estado'''
     if not tareas:
         print("No hay tareas registradas\n")
         return
@@ -26,7 +26,7 @@ def listar_tareas():
 
 
 def completar_tarea():
-    
+    '''Marca tareas como completadas'''
     listar_tareas()
     if not tareas:
         return
@@ -43,7 +43,7 @@ def completar_tarea():
 
 
 def eliminar_tarea():
-    
+    '''Elimina tareas'''
     listar_tareas()
     if not tareas:
         return
@@ -60,6 +60,7 @@ def eliminar_tarea():
 
 
 def mostrar_menu():
+    '''Muestra las opciones'''
     print("----Gestor de Tareas----")
     print("1. Agregar tarea")
     print("2. Listar tareas")
