@@ -26,7 +26,7 @@ def calculadora():
             continuar = input("Quieres hacer otra operacion? (s/n): ")
             if continuar.lower() != "s":
                 break
-        except:
+        except ValueError:
             print("Ingresa solo numeros")
 
 calculadora()
